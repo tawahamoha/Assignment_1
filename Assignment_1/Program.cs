@@ -1,4 +1,5 @@
-﻿Console.WriteLine("Enter the invoice amount:");
+﻿/*
+Console.WriteLine("Enter the invoice amount:");
 double amount = Convert.ToDouble(Console.ReadLine());
 
 
@@ -22,3 +23,37 @@ else
 {
     Console.WriteLine($"The Final Amount is: {amount}");
 }
+*/
+
+// Switch :
+
+Console.WriteLine("Enter Num1 :");
+double num1 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Enter Num2 :");
+double num2 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Enter The Operator :");
+char @operator = Convert.ToChar(Console.ReadLine());
+
+switch (@operator)
+{ 
+case '+':
+        Console.WriteLine($"The REsult of Operator {@operator} for {num1} + {num2} is : {num1 + num2}");
+        break;
+
+    case '-':
+        Console.WriteLine($"The REsult of Operator {@operator} for {num1} - {num2} is : {num1 - num2}");
+        break;
+
+
+        case '*':
+        Console.WriteLine($"The REsult of Operator {@operator} for {num1} * {num2} is : {num1 * num2}");
+        break;
+
+
+        case '/':
+        Console.WriteLine($"The REsult of Operator {@operator} for {num1} / {num2} is : {num1 / num2}");
+        break;
+
+}
+
+
