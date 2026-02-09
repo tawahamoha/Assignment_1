@@ -26,7 +26,7 @@ else
 */
 
 // Switch :
-
+/*
 Console.WriteLine("Enter Num1 :");
 double num1 = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Enter Num2 :");
@@ -56,4 +56,17 @@ case '+':
 
 }
 
+*/
 
+int var_1 = 0;
+
+var var_2 = "Increase one";
+//اختصار للشرط 
+
+var_1 = var_2 == "Increase one" ? var_1++ : var_1;
+
+
+if (var_2 == "Increase one")
+{
+    var_1++;
+}
